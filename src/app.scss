@@ -1,0 +1,26 @@
+page {
+    background-color: #F9F9F9;
+    height: 100%;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipsis-1 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.ellipsis-2 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}

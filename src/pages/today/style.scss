@@ -1,0 +1,61 @@
+page {
+    // background: rgba(249, 249, 249, 1);
+    background: #f9f9f9;
+    .Today-box {
+        padding-top: 10vh;
+        .calendar-box {
+            width: 90vw;
+            height: 85vh;
+            border: 5px solid #000000;
+            margin: 0 auto;
+            .date-box {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+
+                .date-num-text {
+                    width: 100%;
+                    height: 5vh;
+                    border-bottom: 2px solid #000000;
+                    font-size: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 20px;
+                }
+
+                .month-text, .week-text {
+                    width: 40px;
+                    font-size: 30px;
+                }
+
+                .month-en-text {
+                    width: 50vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: 500;
+                    font-size: 40px;
+                }
+            }
+
+            .current-day {
+                font-size: 380px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .quotes-box {
+                border-top: 2px solid #000000;
+                padding: 30px;
+                font-size: 40px;
+
+                .author {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}

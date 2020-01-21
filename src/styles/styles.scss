@@ -1,0 +1,9 @@
+@import "./mixin";
+
+.align-row-center {
+    @include align-row-center;
+}
+
+.align-column-center {
+    @include align-column-center;
+}

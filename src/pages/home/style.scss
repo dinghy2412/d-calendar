@@ -1,0 +1,18 @@
+page {
+    // background: rgba(249, 249, 249, 1);
+    background: #f9f9f9;
+    .home {
+        width: 100%;
+        background: rgba(249, 249, 249, 1);
+
+        .title-bar {
+            width: 100%;
+            padding: 33px 0 0 24px;
+            box-sizing: border-box;
+            height: 102px;
+            font-size: 38px;
+            font-weight: bold;
+            color: rgba(74, 74, 74, 1);
+        }
+    }
+}

@@ -1,0 +1,191 @@
+.my-box {
+    height: 100%;
+    .my-user-info-box-bg {
+        width: 100%;
+        height: 424px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .my-user-info-box {
+        width: 100%;
+        height: 454px;
+        padding: 186px 0 0 57px;
+        box-sizing: border-box;
+        background-size: 100% auto;
+        position: relative;
+        z-index: 10;
+
+        .my-user-info {
+            width: 100%;
+            display: flex;
+        }
+
+        .my-user-info-avatar-box {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-right: 20px;
+            position: relative;
+
+            .vip-icon {
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+
+        .my-user-info-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        .my-user-info-name {
+            height: 120px;
+            display: flex;
+            align-items: center;
+            font-size: 40px;
+            font-weight: bold;
+            color: #4A4A4A;
+        }
+
+        .login-btn {
+            height: 120px;
+            display: flex;
+            align-items: center;
+            font-size: 40px;
+            font-weight: bold;
+            color: #4A4A4A;
+        }
+    }
+
+    .my-order-entry-box {
+        width: 702px;
+        height: 236px;
+        border-radius: 20px;
+        position: relative;
+        margin: -90px auto 0;
+        background-color: #fff;
+        z-index: 10;
+
+        .my-order-entry-title-box {
+            width: 100%;
+            height: 90px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+
+            .my-order-entry-title-box-line {
+                width: 654px;
+                height: 1Px;
+                background-color: #eee;
+                position: absolute;
+                bottom: 0;
+                left: 24px;
+            }
+        }
+
+        .my-order-entry-title {
+            padding-left: 24px;
+            font-size: 30px;
+            font-weight: bold;
+            color: #4A4A4A;
+        }
+
+        .my-order-entry-all-order {
+            display: flex;
+            align-items: center;
+            font-size: 26px;
+            color: #9B9B9B;
+        }
+
+        .my-order-entry {
+            width: 590px;
+            height: 146px;
+            margin: 0 auto;
+            padding-top: 24px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .my-order-entry-item {
+            width: 64px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .my-order-entry-item-img-box {
+                width: 64px;
+                height: 64px;
+                position: relative;
+                .my-order-entry-item-img {
+                    width: 64px;
+                    height: 64px;
+                }
+
+                .my-order-entry-item-count {
+                    min-width: 32px;
+                    height: 32px;
+                    border-radius: 16px;
+                    position: absolute;
+                    top: -4px;
+                    right: -10px;
+                    padding: 0 10px;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #fff;
+                    background-color: #FF3B30;
+                }
+            }
+
+            .my-order-entry-item-title {
+                width: 120px;
+                height: 42px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 22px;
+                color: #4a4a4a;
+            }
+        }
+    }
+
+    .my-menu-list-box, .my-agreement {
+        width: 702px;
+        margin: 30px auto;
+        border-radius: 20px;
+        background-color: #fff;
+
+        .my-menu-item-box {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 24px;
+            box-sizing: border-box;
+
+            .my-menu-item-title {
+                font-size: 30px;
+                color: #4a4a4a;
+            }
+        }
+    }
+
+
+    .icon-detail-btn {
+        width: 48px;
+        height: 48px;
+    }
+}

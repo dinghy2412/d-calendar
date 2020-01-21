@@ -1,0 +1,86 @@
+{
+    "extends": [
+        "taro"
+    ],
+    "rules": {
+        "no-unused-vars": [
+            "error",
+            {
+                "varsIgnorePattern": "Taro"
+            }
+        ],
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".tsx"
+                ]
+            }
+        ],
+        "quotes": [
+            "error",
+            "single",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "eqeqeq": [
+            "error",
+            "always"
+        ],
+        "space-infix-ops": [
+            "error",
+            {
+                "int32Hint": false
+            }
+        ],
+        "space-before-function-paren": [
+            "error",
+            "never"
+        ],
+        "indent": [
+            "error",
+            4,
+            {
+                "VariableDeclarator": {
+                    "var": 1,
+                    "let": 1
+                }
+            }
+        ],
+        "no-return-assign": 2,
+        "one-var": [
+            "error",
+            {
+                "var": "always",
+                "let": "consecutive",
+                "const": "never"
+            }
+        ],
+        "padded-blocks": [
+            "error",
+            {
+                "blocks": "never"
+            }
+        ],
+        "arrow-parens": 2,
+        // 要求箭头函数的参数使用圆括号  (a) => {}
+        "generator-star-spacing": 2,
+        // 允许方法之间加星号 function * generator() {}
+        "semi": [
+            // 要求在语句末尾使用封号
+            "error",
+            // 提示级别
+            "always"
+            // 要求在语句末尾使用分号
+        ],
+        "comma-dangle": [
+            "error",
+            "only-multiline"
+        ],
+        "react/jsx-indent-props": 0
+    },
+    "parser": "babel-eslint"
+}
